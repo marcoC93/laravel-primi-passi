@@ -14,6 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('duplicate');
+    "hello world";
+    return view('welcome');
+});
+Route::get('/duplicate', function () {
+
+     $data = [
+         'nome' => 'Marco',
+     ];
+
+    return view('duplicate',$data);
 
 });

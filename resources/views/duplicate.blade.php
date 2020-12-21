@@ -81,11 +81,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Hello World
+                    {{ $nome }}
                 </div>
 
                 <p>sono riuscito ad inserire questo duplicato solo nella cartella "root" delle views, non ho capito se é possibile inserire delle sottocartelle e come eventualmente linkarle oppure vadano semplicemente linkate tutte nella stessa cartella
                 ma un primo step é stato raggiunto.</p>
+                <p>alla fine credo di aver capito come creare i vari percorsi, forse avevo sbagliato a scrivere qualcosa, ci sono delle route che creano i vari collegamenti per le vere e proprie pagine denominate view</p>
             </div>
         </div>
     </body>
